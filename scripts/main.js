@@ -7,10 +7,10 @@ myHeading.textContent = 'Empório do Ciclista.js';
 let myImage = document.querySelector('img');
 myImage.onclick = function() {
   let mySrc = myImage.getAttribute('src');
-  if(mySrc === 'https://github.com/leopesi/projetowebpage/blob/master/imagens/logo.gif') {
-    myImage.setAttribute ('src','https://github.com/leopesi/projetowebpage/blob/master/imagens/logo.gif2.gif');
+  if(mySrc === 'https://raw.githubusercontent.com/leopesi/projetowebpage/master/imagens/logo.gif') {
+    myImage.setAttribute ('src','https://raw.githubusercontent.com/leopesi/projetowebpage/master/imagens/logo2.gif');
   } else {
-    myImage.setAttribute ('src','https://github.com/leopesi/projetowebpage/blob/master/imagens/logo.gif');
+    myImage.setAttribute ('src','https://raw.githubusercontent.com/leopesi/projetowebpage/master/imagens/logo.gif');
   }
 }
 
