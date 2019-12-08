@@ -7,10 +7,10 @@ myHeading.textContent = 'Empório do Ciclista.js';
 let myImage = document.querySelector('img');
 myImage.onclick = function() {
   let mySrc = myImage.getAttribute('src');
-  if(mySrc === 'imagens/logo.gif') {
-    myImage.setAttribute ('src','imagens/logo2.gif');
+  if(mySrc === 'projetowebpage/imagens/logo.gif') {
+    myImage.setAttribute ('src','projetowebpage/imagens/logo2.gif');
   } else {
-    myImage.setAttribute ('src','imagens/logo.gif');
+    myImage.setAttribute ('src','projetowebpage/imagens/logo.gif');
   }
 }
 
